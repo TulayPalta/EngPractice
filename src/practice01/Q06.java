@@ -17,6 +17,6 @@ public class Q06 {
         char c = scan.next().charAt(0);
 
         System.out.println(((c <= 'z' && c >= 'a') || (c >= 'A' && c <= 'Z')) ? ((c >= 'A' && c <= 'Z') ? "Uppercase Letter" : "Lowercase Letter"): "NOT Letter");
-        // deneme
+        
     }
 }
